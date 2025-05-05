@@ -1,0 +1,13 @@
+<!--需要启动多个乌龟GUI节点-->
+<launch>
+    <!-- 正常乌龟节点 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim"  />
+    <!-- 名称重映射  -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1"  />
+    <!-- 命名空间  -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" ns="erGouZi"  />
+    <!-- 命名空间 + 名称重映射 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim1" ns="maoLvZi"  />
+
+
+</launch>

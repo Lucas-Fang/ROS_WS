@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /mnt/d/linux/ROS1_Example/rosdemo_upgrade/install/setup.sh

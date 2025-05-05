@@ -1,0 +1,4 @@
+roslaunch:
+  uris:
+    host_xiaofanglinux__38151: http://xiaofanglinux:38151/
+run_id: 08aff470-bd3e-11ef-bf53-e89c257f2cff

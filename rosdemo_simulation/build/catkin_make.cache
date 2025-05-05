@@ -1,0 +1,2 @@
+arbotix_ros-noetic-devel/arbotix:arbotix_ros-noetic-devel/arbotix_controllers:arbotix_ros-noetic-devel/arbotix_firmware:arbotix_ros-noetic-devel/arbotix_msgs:arbotix_ros-noetic-devel/arbotix_python:arbotix_ros-noetic-devel/arbotix_sensors:urdf01_rviz:urdf02_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/xiaofanglinux/ROS1_Example/rosdemo_simulation/devel -DCMAKE_INSTALL_PREFIX=/home/xiaofanglinux/ROS1_Example/rosdemo_simulation/install -G Unix Makefiles

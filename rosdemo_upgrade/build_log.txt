@@ -1,0 +1,436 @@
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using CATKIN_DEVEL_PREFIX: /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+CMake Warning (dev) at /opt/ros/noetic/share/catkin/cmake/python.cmake:4 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/noetic/share/catkin/cmake/all.cmake:164 (include)
+  /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:58 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - tf01_static
+-- ~~  - tf02_dynamic
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'tf01_static'
+-- ==> add_subdirectory(tf01_static)
+CMake Deprecation Warning at tf01_static/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'tf02_dynamic'
+-- ==> add_subdirectory(tf02_dynamic)
+CMake Deprecation Warning at tf02_dynamic/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build
+/usr/bin/cmake -S/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src -B/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/CMakeFiles /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_py.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_py.dir/depend
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_py.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_py.dir/depend
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/std_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_py.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_py.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/std_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/geometry_msgs_generate_messages_py.dir/build”无需做任何事。
+make  -f tf01_static/CMakeFiles/std_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/std_msgs_generate_messages_py.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/std_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_py.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_py.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/std_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/roscpp_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/roscpp_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/roscpp_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/roscpp_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/roscpp_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/roscpp_generate_messages_eus.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/roscpp_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+[  0%] Built target roscpp_generate_messages_py
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
+[  0%] Built target geometry_msgs_generate_messages_cpp
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
+[  0%] Built target std_msgs_generate_messages_nodejs
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+[  0%] Built target roscpp_generate_messages_nodejs
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/DependInfo.cmake "--color="
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_cpp.dir/depend
+[  0%] Built target roscpp_generate_messages_eus
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake "--color="
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_eus.dir/depend
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_lisp.dir/depend
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_generate_messages_eus.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_generate_messages_lisp.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake "--color="
+make  -f tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build.make tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/depend
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf02_dynamic /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf02_dynamic /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/DependInfo.cmake "--color="
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make tf01_static/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+make  -f tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/tf2_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_eus.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_eus.dir/build
+make  -f tf01_static/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make tf01_static/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 对“tf01_static/CMakeFiles/actionlib_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build.make tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/demo01_static_pub.dir/build.make tf01_static/CMakeFiles/demo01_static_pub.dir/depend
+make  -f tf01_static/CMakeFiles/demo02_static_sub.dir/build.make tf01_static/CMakeFiles/demo02_static_sub.dir/depend
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/demo01_static_pub.dir/DependInfo.cmake "--color="
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static/CMakeFiles/demo02_static_sub.dir/DependInfo.cmake "--color="
+[ 16%] Linking CXX executable /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel/lib/tf02_dynamic/demo01_dynamic_pub
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf02_dynamic && /usr/bin/cmake -E cmake_link_script CMakeFiles/demo01_dynamic_pub.dir/link.txt --verbose=1
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/demo01_static_pub.dir/build.make tf01_static/CMakeFiles/demo01_static_pub.dir/build
+/usr/bin/c++ -rdynamic CMakeFiles/demo01_dynamic_pub.dir/src/demo01_dynamic_pub.cpp.o -o /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel/lib/tf02_dynamic/demo01_dynamic_pub 
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make  -f tf01_static/CMakeFiles/demo02_static_sub.dir/build.make tf01_static/CMakeFiles/demo02_static_sub.dir/build
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[2]: 进入目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+[ 33%] Linking CXX executable /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel/lib/tf01_static/demo01_static_pub
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static && /usr/bin/cmake -E cmake_link_script CMakeFiles/demo01_static_pub.dir/link.txt --verbose=1
+[ 50%] Linking CXX executable /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel/lib/tf01_static/demo02_static_sub
+cd /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build/tf01_static && /usr/bin/cmake -E cmake_link_script CMakeFiles/demo02_static_sub.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/demo01_static_pub.dir/src/demo01_static_pub.cpp.o -o /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel/lib/tf01_static/demo01_static_pub  -Wl,-rpath,/opt/ros/noetic/lib -lorocos-kdl -lorocos-kdl /opt/ros/noetic/lib/libtf2_ros.so /opt/ros/noetic/lib/libactionlib.so /opt/ros/noetic/lib/libmessage_filters.so /opt/ros/noetic/lib/libroscpp.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.83.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.83.0 /opt/ros/noetic/lib/librosconsole.so /opt/ros/noetic/lib/librosconsole_log4cxx.so /opt/ros/noetic/lib/librosconsole_backend_interface.so -llog4cxx /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.83.0 /opt/ros/noetic/lib/libxmlrpcpp.so /opt/ros/noetic/lib/libtf2.so /opt/ros/noetic/lib/libroscpp_serialization.so /opt/ros/noetic/lib/librostime.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.83.0 /opt/ros/noetic/lib/libcpp_common.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.83.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0 
+/usr/bin/c++ -rdynamic CMakeFiles/demo02_static_sub.dir/src/demo02_static_sub.cpp.o -o /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel/lib/tf01_static/demo02_static_sub  -Wl,-rpath,/opt/ros/noetic/lib -lorocos-kdl -lorocos-kdl /opt/ros/noetic/lib/libtf2_ros.so /opt/ros/noetic/lib/libactionlib.so /opt/ros/noetic/lib/libmessage_filters.so /opt/ros/noetic/lib/libroscpp.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.83.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.83.0 /opt/ros/noetic/lib/librosconsole.so /opt/ros/noetic/lib/librosconsole_log4cxx.so /opt/ros/noetic/lib/librosconsole_backend_interface.so -llog4cxx /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.83.0 /opt/ros/noetic/lib/libxmlrpcpp.so /opt/ros/noetic/lib/libtf2.so /opt/ros/noetic/lib/libroscpp_serialization.so /opt/ros/noetic/lib/librostime.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.83.0 /opt/ros/noetic/lib/libcpp_common.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.83.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0 
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build.make:100：/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel/lib/tf02_dynamic/demo01_dynamic_pub] 错误 1
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make[1]: *** [CMakeFiles/Makefile2:1747：tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+[ 66%] Built target demo01_static_pub
+make[2]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+[ 83%] Built target demo02_static_sub
+make[1]: 离开目录“/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build”
+make: *** [Makefile:149：all] 错误 2
+Base path: /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade
+Source space: /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src
+Build space: /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build
+Devel space: /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel
+Install space: /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/install
+####
+#### Running command: "cmake /home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/src -DCMAKE_VERBOSE_MAKEFILE=ON -DCATKIN_DEVEL_PREFIX=/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/devel -DCMAKE_INSTALL_PREFIX=/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/install -G Unix Makefiles" in "/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build"
+####
+####
+#### Running command: "make -j20 -l20" in "/home/xiaofangtongxue/ROS1_Example/rosdemo_upgrade/build"
+####
+Invoking "make -j20 -l20" failed

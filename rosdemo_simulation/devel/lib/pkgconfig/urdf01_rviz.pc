@@ -1,0 +1,8 @@
+prefix=/home/xiaofanglinux/ROS1_Example/rosdemo_simulation/devel
+
+Name: urdf01_rviz
+Description: Description of urdf01_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

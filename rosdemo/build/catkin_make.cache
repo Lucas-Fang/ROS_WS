@@ -1,0 +1,2 @@
+hello:plumbing_apis:plumbing_head:plumbing_mypackage:plumbing_param_server:plumbing_pub_sub:plumbing_server_client:plumbing_turtle_test:rename01_node:rename02_topic:rename03_param:teleop_twist_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/xiaofanglinux/ROS1_Example/rosdemo/devel -DCMAKE_INSTALL_PREFIX=/home/xiaofanglinux/ROS1_Example/rosdemo/install -G Unix Makefiles

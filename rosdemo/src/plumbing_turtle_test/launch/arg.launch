@@ -1,0 +1,8 @@
+<launch>
+    <!-- 使用arg设置不同参数，共同使用同一个数值（感觉类似于宏定义） -->
+    <arg name="car_length" default="0.55" /> <!--使用default设置默认参数，还可以使用value设置参数-->
+
+    <param name="A" value="$(arg car_length)" />
+    <param name="B" value="$(arg car_length)" />
+    <param name="C" value="$(arg car_length)" />
+</launch>

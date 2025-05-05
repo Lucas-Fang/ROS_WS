@@ -1,0 +1,5 @@
+<launch>
+<!-- 复用已经存在的launch文件 -->
+    <include file="$(find plumbing_turtle_test)/launch/star_turtle.launch"/>
+
+</launch>
